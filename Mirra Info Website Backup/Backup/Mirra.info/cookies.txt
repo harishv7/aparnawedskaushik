@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+mirra.info	TRUE	/	FALSE	1999999999	ASPSESSIONIDSCQDCACR	NOJLDMBBGMAOOBJFAIMCKONK
+

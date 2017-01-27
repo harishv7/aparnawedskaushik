@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Credits - Mirra Fine Arts, Singapore - Electronic Keyboard, Guitar, Indian Music</title>
+
+
+<script language="JavaScript1.2" type="text/javascript">
+function cOn(td){
+if(document.getElementById||(document.all && !(document.getElementById))){
+td.style.backgroundColor="#FFA500";
+}
+}
+function cOut(td){
+if(document.getElementById||(document.all && !(document.getElementById))){
+td.style.backgroundColor="#F5F5DC";
+}
+}
+</script>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<meta name="keywords" CONTENT="guitar, keyboard, electronic, electronic keyboard, electric guitar, arts, fine, mirra, singapore, credits, music, indian, vijayan, radha, mirra fine arts, fine arts">
+<meta name="description" CONTENT="Credits - Mirra Fine Arts is well recognized in Singapore for offering courses in Western and Indian music on the Electronic Keyboard and Guitar, as well as coaching students for the examinations conducted by ABRSM,Trinity College of Music, London and GSMD,London.">
+
+<style type="text/css">
+body{font-family:'Book Antiqua,Helvetica,Arial';font-size:10pt;color:#000000;}
+table{font-family:'Book Antiqua,Helvetica,Arial';font-size:10pt;color:#000000;}
+a{font-weight:bold;font-family:'Sans-Serif,Helvetica,Arial';font-size:9pt;color:#686468;text-decoration:none;}
+a:hover{font-weight:bold;font-family:'Sans-Serif,Helvetica,Arial';font-size:9pt;color:#000000;text-decoration:none;}
+</style>
+
+</head>
+<body bgcolor="#000000" style="bottommargin:5px,topmargin:5px,left-margin:5px,right-margin:5px;">
+
+<table align=center width=770  border=0 bgcolor="#F5F5DC" cellpadding=0 cellspacing=0>
+  <tr>
+  <td width=140 height=400 align=center valign=top>
+    <p align=center>
+    <img src="sub-image.jpg" border=0 alt="Guitars" width="140" height="400"></p>
+	<a target="sgb" title="Sign our guestbook" href="mirraguestbook.asp">
+    <img src="guestbook.gif" border=0 alt="GuestBook" width="100" height="24"></a>
+		<p  >
+			<a style="color:blue;" href="Mirra_Students_Feedback.htm" target="students">MFA Students Feedback</a>
+		</p>
+		<img src="viji_6.gif" border=0 alt="Contact"><br><!-- width="148" height="131" -->
+		
+
+  </td>
+  <td width=630 valign=top>
+    <table width=630 border=0 cellpadding=0 cellspacing=0>
+    <tr>
+    <td valign=bottom align=left><p style="font-weight:bold;font-family:arial;color:#585858;font-size:11pt;margin-left:25pt;">Credits</p></td>
+    <td width=175 align=right>
+    <img src="logo.gif" border=0 alt="Mirra Fine Arts" width="175" height="34"/></td>
+    <td width=75 align=right><img src="flower.jpg" border=0 alt="Flower" width="75" height="92"/></td>
+    </table>
+    
+    <p align=justify style="margin-left:25pt;margin-right:50pt;margin-bottom:10pt;"> 
+    <table align=left cellpadding=3 cellspacing=0 border=0 style="bordercolor:#FFA500;">
+	  <tr>
+	    <td width=2 style="border-left:1px solid #FFA500; border-top:1px solid #FFA500;border-bottom:1px solid #FFA500;" onmouseover="cOn(this)" onmouseout="cOut(this)" nowrap>
+	      <a href="home.asp">&nbsp;Home</a>
+	    </td>
+        <td style="border-left:1px solid #FFA500; border-top:1px solid #FFA500;border-bottom:1px solid #FFA500;" onmouseover="cOn(this)" onmouseout="cOut(this)" nowrap>
+          <a href="About_Mirra_Fine_Arts.htm">&nbsp;About Us</a></td>
+        <td style="border-left:1px solid #FFA500; border-top:1px solid #FFA500;border-bottom:1px solid #FFA500;" onmouseover="cOn(this)" onmouseout="cOut(this)" nowrap>
+          <a href="Keyboard_Guitar_Courses.htm">&nbsp;Courses</a></td>
+        <td bgcolor="#FFA500" style="border-left:1px solid #FFA500; border-top:1px solid #FFA500;border-bottom:1px solid #FFA500;" nowrap>
+          <a href="Mirra_Credits.htm">&nbsp;Credits</a></td>
+        <td style="border-left:1px solid #FFA500; border-top:1px solid #FFA500;border-bottom:1px solid #FFA500;" onmouseover="cOn(this)" onmouseout="cOut(this)" nowrap>
+          <a href="Mirra_Photo_Gallery.htm">&nbsp;Gallery</a></td>
+             <!--  <td style="border-left:1px solid #FFA500; border-top:1px solid #FFA500;border-bottom:1px solid #FFA500;" onmouseover="cOn(this)" onmouseout="cOut(this)" nowrap>
+          <a href="MFA_Club.htm">&nbsp;MFA-Club</a></td> -->
+        <td style="border-left:1px solid #FFA500; border-top:1px solid #FFA500;border-bottom:1px solid #FFA500;" onmouseover="cOn(this)" onmouseout="cOut(this)" nowrap>
+          <a href="Achievements.htm">&nbsp;Achievements</a></td>
+        <td style="border-left:1px solid #FFA500; border-top:1px solid #FFA500;border-bottom:1px solid #FFA500;" onmouseover="cOn(this)" onmouseout="cOut(this)" nowrap>
+          <a href="Enroll_Keyboard_Guitar_Course.htm">&nbsp;Enroll Online</a></td>
+        <td nowrap style="border-left:1px solid #FFA500; border-top:1px solid #FFA500;border-bottom:1px solid #FFA500;" onmouseover="cOn(this)" onmouseout="cOut(this)">
+          <a title="Links" href="Mirra_Links.htm">&nbsp;Links</a></td>
+		<td nowrap style="border-left:1px solid #FFA500; border-top:1px solid #FFA500;border-bottom:1px solid #FFA500;" onmouseover="cOn(this)" onmouseout="cOut(this)">
+			<a title="Links" href="MSV.htm">&nbsp;Our Patron</a></td>          
+      </tr>
+    </table>
+  
+  <p style="margin-top:25pt;">&nbsp;</p>
+  <table  width=630 border=0 cellpadding=0 cellspacing=0>
+    <tr>
+    <td valign=top height=254 style="background-image:url('logobg.jpg,background-repeatno-repeat');">
+  <p align=justify style="margin-left:25pt;margin-right:50pt;">
+    <B>Radha Vijayan</B> is a popular figure in the Singapore and Indian Music Industry. He has committed himself to  music and has achieved a lot in the world of music. A few are mentioned below for the visitors....
+    <br>
+    <br>
+    <u><font color="#000066" size="3">
+    <b>Awards</b></font></u>
+  </p>
+  <ul>
+    <li><p align=justify style="margin-top:-5pt;margin-left:5pt;margin-right:50pt;">Conferred the Title of <font color="#000066"> <B> "Sangeetha Kala Nipuna"</B></font> by Nrityalaya Aesthetics Society, Singapore</p></li>
+    <li><p align=justify style="margin-top:-15pt;margin-left:5pt;margin-right:50pt;">Recipient of <font color="#000066"> <B> "Bukit Batok Award"</B></font> from Bukit Batok Community Club for his excellence in Service</p></li>
+    <li><p align=justify style="margin-top:-15pt;margin-left:5pt;margin-right:50pt;">Special invitee judge for Talent time competitions organised by <U>Mediacorp TV12</U>, Singapore.</p></li>
+    <li><p align=justify style="margin-top:-15pt;margin-left:5pt;margin-right:50pt;">Judge for several Competitions and talent time organised by Community Centres and affiliated organisations.</p></li>
+  </ul>
+
+  <p align=justify style="margin-left:25pt;margin-right:50pt;">
+    <u><b><font size="3" color="#000066">Achievements</font></b></u>
+  </p>
+  <ul>
+    <li><p align=justify style="margin-top:-5pt;margin-left:5pt;margin-right:50pt;">He has done extensive research on music and had submitted the research papers on <font color="#000066"> <B> "Role of Microtones in Indian Ragaas"</B></font> to National University of Singapore through Centre for Arts, Singapore on the <font color="#000066"> <B>2nd Asian Composer's Forum in Singapore, 1993</B>.</font></p></li>
+	<li><p align=justify style="margin-top:-10pt;margin-left:5pt;margin-right:50pt;">The same was recorded and produced as a CD-ROM as a procedure and performance.</p></li>
+	<li><p align=justify style="margin-top:-10pt;margin-left:5pt;margin-right:50pt;">Radha Vijayan was commissioned by <A target="nac" href="http://www.nac.gov.sg"> <B><font face="Book Antiqua" color="#FF0000">National Arts Council of Singapore</font></B></A> in the year 1992 to Conduct the Chinese Orchestra for the Combined Indian Dance Programme in Singapore Festival of Arts. He featured and succeeded in starting the first Indian Choir  under the advice of Mr K P Bhaskar, President of the Nrityalaya Aesthetics Society , to sing in harmony and counterpoint based on Indian Ragaas in the "Acapella" style  for the first time in Singapore.</p></li> 
+  </ul>
+  
+  </td>
+  </table>
+</td>
+</tr>
+<tr bgcolor="#666699">
+  <td colspan=2 align=left nowrap>
+    <p align=justify style="margin-left:5;color:#CCCCCC;font-size:8pt;"><strong>Contact:</strong>&nbsp;&nbsp;&nbsp;Radha Vijayan, Mirra Fine Arts, BLK 130, Jurong East St 13, #04-231, Singapore 600 130.&nbsp;&nbsp;Ph: (65) 
+    6334 5283&nbsp;Fax: (65) 6338 7576<br>
+    E-Mail:&nbsp;<a style="text-decoration:underline;font-family:'book antiqua';color:#cccccc" href="mailto:mother21@singnet.com.sg">mother21@singnet.com.sg</a>&nbsp;&nbsp;HP:&nbsp;9780&nbsp;5015
+  </td> 
+</tr>
+<tr bgcolor="#000000">
+  <td colspan=2 align=right>
+    <a style="color:#585858;font-size:8pt;" href="http://www.eztechgroup.net" target="ez">Site Designed by EzTechGroup</a>
+  </td>
+</tr>
+</table>
