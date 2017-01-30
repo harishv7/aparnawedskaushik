@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 /* body:before will also work
  as will body:after */
@@ -18,6 +20,11 @@
 body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: auto;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+	font-size: 18px;
 }
 
 html,
@@ -201,11 +208,6 @@ body,
 	align-content: center;
 }
 
-.enroll-online {
-	background-image: url("../../images/blurred_lines.jpeg");
-
-}
-
 .hideme {
 	opacity: 0;
 }
@@ -217,8 +219,8 @@ body,
 	font-size: 14px;
 }
 
-#about-us {
-	background-color: #06A77D;
+#welcome {
+	background-color: #4abdac;
 }
 
 #contact-us {
@@ -256,7 +258,6 @@ body,
 	margin-left: 80px;
 }
 
-/*
 .custom-navbar-brand.hidden-lg > .heading-img {
 	width: 34%;
 	margin-left: 0px;
@@ -276,10 +277,11 @@ body,
 		width: 34%;
 	height: 50px;
 }
-*/
 
 h1 {
-	font-size: 45px;
+	font-family: 'Lobster Two', sans-serif;
+	font-size: 52px;
+	letter-spacing: 1px;
 }
 
 .cover-description-top {
@@ -303,8 +305,7 @@ h1 {
 }
 
 /* Collapse Navbar sooner */
-/*
-@media (max-width: 1199px) {
+@media (max-width: 768px) {
 	.navbar-header {
 		float: none;
 	}
@@ -340,7 +341,6 @@ h1 {
 		display:block !important;
 	}
 }
-*/
 
 /* For Larger Screens */
 /*
@@ -408,4 +408,23 @@ h1 {
 #form-error-message {
 	font-weight: bold;
 	color: orange;
+}
+
+@media (max-width: 767px) {
+	#intro-video {
+		width: 100%;
+	}
+}
+
+#wedding {
+	background-color: #fc4a1a;
+}
+
+.potrait-img {
+	border-radius: 50%;
+	width: 50%;
+}
+
+#rsvp {
+	background-color: #f7b733;
 }
