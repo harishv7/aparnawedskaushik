@@ -121,6 +121,17 @@
 							</p>
 						</div>
 					</div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+							<iframe id="google-maps"
+									width="100%"
+									height="450"
+									frameborder="0" style="border:0"
+									src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBGqNSJYooopbBgMbZh9AbR4pqRComqm_k
+										 &q=Holiday+Inn,Singapore" allowfullscreen>
+							</iframe>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -136,7 +147,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="section white-font hideme" id="e-gift">
 				<div class="container">
 					<div class="row">
@@ -144,41 +155,82 @@
 							<h1 class="text-center">E-Gift</h1>
 							<div>
 								<h3>Don't know what to gift us? Give us an e-gift!</h3>
-							</div>
+								<script>
+									function submitEGift() {
+										var amt = parseInt(document.getElementById('e-gift-amt').value);
+										var url = "https://www.paypal.me/harishv/" + amt;
+										window.open(url, '_blank');
+									}
+
+								</script>
+								<input id="e-gift-amt"></input> <br>
+							<button type="submit" class="custom-btn" onclick="submitEGift();">Gift</button>
 						</div>
 					</div>
 				</div>
 			</div>
-			
+			</div>
 
-	<footer class="section section-success">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4 text-center">
-					<h5>&copy; 2017 InspireTech Labs. <br> All Rights Reserved.</h5>
-				</div>
-				<div class="col-sm-4 text-center">
-					Crafted with &hearts; <br>
-					<h5>by <a style="color: white;" href="http://harishv.me"><u>HarishV</u></a></h5>
-				</div>
-				<div class="col-sm-4 text-right text-center">
-					<a href="tel:+6592474267"><i class="fa fa-3x fa-fw fa-phone text-inverse"></i></a>
-					<a href="mailto:harish207@live.com"><i class="fa fa-3x fa-fw fa-envelope text-inverse"></i></a>
+		<div class="section white-font hideme" id="contact-us">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<h1 class="text-center">Contact Us</h1>
+						<form action="https://formspree.io/harishv207@gmail.com" method="POST" class="sans-serif-heading custom-form">
+					<h3 class="custom-font">Contact Form</h3>
+					<div class="form-group">
+						<label class="sans-serif-heading">Name</label>
+						<input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
+					</div>
+					<div class="form-group">
+						<label class="sans-serif-heading">Email Address</label>
+						<input type="email" class="form-control" id="email_address" placeholder="Email" name="email" required>
+					</div>
+					<div class="form-group">
+						<input type="text" name="_gotcha" style="display:none" />
+					</div>
+					<div class="form-group">
+						<label class="sans-serif-heading">Comments</label>
+						<textarea class="form-control" rows="3" name="comments"></textarea>
+					</div>
+					<div class="text-center">
+						<button type="submit" class="btn btn-default custom-btn" value="Send">Submit</button>
+					</div>
+				</form>
+					</div>
 				</div>
 			</div>
 		</div>
-	</footer>
-	</body>
 
-<!-- Import Scripts -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/minified/myjs.js"></script>
-<script type="text/javascript" src="assets/js/minified/photoswipe-ui-default.min.js"></script>
-<script type="text/javascript" src="assets/js/minified/photoswipe.min.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCBNzr4C2DanVLXky6kySh9wCqKqyEA6iE"></script>
 
-<!-- TODO: Google Analytics Tracking -->
+		<footer class="section section-success">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 text-center">
+						<h5>&copy; 2017 InspireTech Labs. <br> All Rights Reserved.</h5>
+					</div>
+					<div class="col-sm-4 text-center">
+						Crafted with &hearts; <br>
+						<h5>by <a style="color: white;" href="http://harishv.me"><u>HarishV</u></a></h5>
+					</div>
+					<div class="col-sm-4 text-right text-center">
+						<a href="tel:+6592474267"><i class="fa fa-3x fa-fw fa-phone text-inverse"></i></a>
+						<a href="mailto:harish207@live.com"><i class="fa fa-3x fa-fw fa-envelope text-inverse"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		</body>
+
+	<!-- Import Scripts -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/minified/myjs.js"></script>
+	<script type="text/javascript" src="assets/js/minified/photoswipe-ui-default.min.js"></script>
+	<script type="text/javascript" src="assets/js/minified/photoswipe.min.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCBNzr4C2DanVLXky6kySh9wCqKqyEA6iE"></script>
+
+	<!-- TODO: Google Analytics Tracking -->
 
 </html>
 <!--

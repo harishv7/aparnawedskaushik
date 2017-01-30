@@ -224,7 +224,7 @@ body,
 }
 
 #contact-us {
-	background-color: #E9E5DC;
+	background-color: #07889B;
 }
 
 #courses {
@@ -431,4 +431,18 @@ h1 {
 
 #e-gift {
 	background-color: #dfdce3;
+}
+
+#e-gift-amt {
+	border: none;
+	font-size: 14px;
+	 padding: 10px;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+	width: auto;
+	color: navy;
+}
+
+#google-maps {
+	border-radius: 2px;
 }
