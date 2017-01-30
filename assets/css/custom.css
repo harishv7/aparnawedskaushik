@@ -5,11 +5,11 @@
 /* body:before will also work
  as will body:after */
 :root:before {
-  content: url(/assets/images/bg-images/bg1.jpg)
-           url(/assets/images/bg-images/bg2.jpg)
-           url(/assets/images/bg-images/bg3.jpg)
-	  	   url(/assets/images/bg-images/bg4.jpg)
-	  	   url(/assets/images/bg-images/bg5.jpg)
+  content: url(../assets/images/bg-images/bg1.jpg)
+           url(../assets/images/bg-images/bg2.jpg)
+           url(../assets/images/bg-images/bg3.jpg)
+	  	   url(../assets/images/bg-images/bg4.jpg)
+	  	   url(../assets/images/bg-images/bg5.jpg)
   /* partial fallback */
   background-image: url(/assets/images/bg-images/bg1.jpg);
   visibility: hidden;

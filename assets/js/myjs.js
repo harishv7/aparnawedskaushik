@@ -50,7 +50,7 @@ $(document).ready(function() {
 	// perform preload of images
 	$.preloadImages = function() {
 		for (var i = 0; i < arguments.length; i++) {
-			$("").attr("src", "/assets/images/bg-images/" + arguments[i] + "'");
+			$("").attr("src", "../assets/images/bg-images/" + arguments[i] + "'");
 		}
 	}
 
@@ -72,7 +72,7 @@ $(document).ready(function() {
 	function preloadImages(arrOfImages) {
 		for(var i = 0; i < arrOfImages.length; i++) {
 			imageToLoad = new Image();
-			imageToLoad.src = '/assets/images/bg-images/' + arrOfImages[i];
+			imageToLoad.src = '../assets/images/bg-images/' + arrOfImages[i];
 		}
 	}
 
@@ -88,7 +88,7 @@ $(document).ready(function() {
 
 			var img = backgroundImages[currIndex];
 
-			$('.cover-image').css({"background-image":"url('/assets/images/bg-images/" + img + "')"});	
+			$('.cover-image').css({"background-image":"url('../assets/images/bg-images/" + img + "')"});	
 			currIndex++;
 		}, 7000);
 	}
