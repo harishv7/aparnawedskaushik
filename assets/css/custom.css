@@ -446,3 +446,7 @@ h1 {
 #google-maps {
 	border-radius: 2px;
 }
+
+#bg-loop-btn2 {
+	cursor: pointer;
+}

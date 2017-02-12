@@ -94,39 +94,28 @@ $(document).ready(function() {
 	}
 	window.onload = loadBg();
 
-	// Initialise photoswipe
-//	var openPhotoSwipe = function() {
-//		var pswpElement = document.querySelectorAll('.pswp')[0];
-//
-//		// build items array
-//		var items = [
-//			{
-//				src: 'https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg',
-//				w: 964,
-//				h: 1024
-//			},
-//			{
-//				src: 'https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg',
-//				w: 1024,
-//				h: 683
-//			}
-//		];
-//
-//		// define options (if needed)
-//		var options = {
-//			// history & focus options are disabled on CodePen        
-//			history: false,
-//			focus: false,
-//
-//			showAnimationDuration: 0,
-//			hideAnimationDuration: 0
-//
-//		};
-//
-//		var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
-//		gallery.init();
-//	};
-//
-//	openPhotoSwipe();
-//	document.getElementById('gallery-btn').onclick = openPhotoSwipe;
+	/* Hide Bg Music Controls & Do Not Play on Mobile Devices */
+	var bg_loop = document.getElementById("bg-loop");
+	
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		bg_loop.pause();
+		$("#bg-loop-btn").css("display", "none");
+		$("#bg-loop-btn2").css("display", "none");
+	}
+
+	/* Controls for Bg Loop Music */
+	$("#bg-loop-btn").click(function() {
+		if(bg_loop.paused) {
+			bg_loop.play();
+		} else {
+			bg_loop.pause();
+		}
+	});
+	$("#bg-loop-btn2").click(function() {
+		if(bg_loop.paused) {
+			bg_loop.play();
+		} else {
+			bg_loop.pause();
+		}
+	});
 });
