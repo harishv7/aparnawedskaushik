@@ -97,12 +97,6 @@ $(document).ready(function() {
 	/* Hide Bg Music Controls & Do Not Play on Mobile Devices */
 	var bg_loop = document.getElementById("bg-loop");
 	
-	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-		bg_loop.pause();
-		$("#bg-loop-btn").css("display", "none");
-		$("#bg-loop-btn2").css("display", "none");
-	}
-
 	/* Controls for Bg Loop Music */
 	$("#bg-loop-btn").click(function() {
 		if(bg_loop.paused) {
