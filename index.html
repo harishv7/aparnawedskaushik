@@ -113,7 +113,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-8 col-md-offset-2">
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque lobortis leo in vestibulum. Mauris sit amet fermentum lorem. Integer sit amet sagittis velit, sit amet pulvinar justo. Morbi eu ante vel lacus porta molestie. In finibus eleifend est, sed accumsan dolor aliquet et.
 							</p>
@@ -149,69 +149,78 @@
 				</div>
 			</div>
 
-		<div class="section white-font hideme" id="contact-us">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-md-offset-3">
-						<h1 class="text-center">Contact Us</h1>
-						<form action="https://formspree.io/harish207@live.com" method="POST" class="sans-serif-heading custom-form">
-					<h3 class="custom-font">Contact Form</h3>
-					<div class="form-group">
-						<label class="sans-serif-heading">Name</label>
-						<input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
-					</div>
-					<div class="form-group">
-						<label class="sans-serif-heading">Email Address</label>
-						<input type="email" class="form-control" id="email_address" placeholder="Email" name="email" required>
-					</div>
-					<div class="form-group">
-						<input type="text" name="_gotcha" style="display:none" />
-					</div>
-					<div class="form-group">
-						<label class="sans-serif-heading">Comments</label>
-						<textarea class="form-control" rows="3" name="comments"></textarea>
-					</div>
-					<div class="text-center">
-						<button type="submit" class="btn btn-default custom-btn" value="Send">Submit</button>
-					</div>
-				</form>
+			<div class="section white-font hideme" id="contact-us">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+							<h1 class="text-center">Contact Us</h1>
+							<div class="row" id="contact-form">
+								<form action="https://formspree.io/harish207@live.com" method="POST" class="sans-serif-heading custom-form">
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
+										</div>
+										<div class="form-group">
+											<input type="email" class="form-control" id="email_address" placeholder="Email" name="email" required>
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+										</div>
+										<div class="form-group">
+											<input type="text" name="_gotcha" style="display:none" />
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<textarea class="form-control" placeholder="Comments" rows="6" name="comments"></textarea>
+										</div>
+									</div>
+								</form>
+							</div>
+
+
+
+							<div class="text-center">
+								<button type="submit" class="btn btn-default custom-btn" value="Send">Submit</button>
+							</div>
+
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 
 
-		<footer class="section section-success">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4 text-center">
-						<h5>&copy; 2017 InspireTech Labs. <br> All Rights Reserved.</h5>
-					</div>
-					<div class="col-sm-4 text-center">
-						Crafted with &hearts; <br>
-						<h5>by <a style="color: white;" href="http://harishv.me"><u>HarishV</u></a></h5>
-					</div>
-					<div class="col-sm-4 text-right text-center">
-						<a href="tel:+6592474267"><i class="fa fa-3x fa-fw fa-phone text-inverse"></i></a>
-						<a href="mailto:harish207@live.com"><i class="fa fa-3x fa-fw fa-envelope text-inverse"></i></a>
+			<footer class="section section-success">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4 text-center">
+							<h5>&copy; 2017 InspireTech Labs. <br> All Rights Reserved.</h5>
+						</div>
+						<div class="col-sm-4 text-center">
+							Crafted with &hearts; <br>
+							<h5>by <a style="color: white;" href="http://harishv.me"><u>HarishV</u></a></h5>
+						</div>
+						<div class="col-sm-4 text-right text-center">
+							<a href="tel:+6592474267"><i class="fa fa-3x fa-fw fa-phone text-inverse"></i></a>
+							<a href="mailto:harish207@live.com"><i class="fa fa-3x fa-fw fa-envelope text-inverse"></i></a>
+						</div>
 					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
 		</body>
 
-	<!-- Import Scripts -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-	<script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/minified/myjs.js"></script>
-	<script type="text/javascript" src="assets/js/minified/photoswipe-ui-default.min.js"></script>
-	<script type="text/javascript" src="assets/js/minified/photoswipe.min.js"></script>
-	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCBNzr4C2DanVLXky6kySh9wCqKqyEA6iE"></script>
+		<!-- Import Scripts -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/minified/myjs.js"></script>
+		<script type="text/javascript" src="assets/js/minified/photoswipe-ui-default.min.js"></script>
+		<script type="text/javascript" src="assets/js/minified/photoswipe.min.js"></script>
+		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCBNzr4C2DanVLXky6kySh9wCqKqyEA6iE"></script>
 
-	<!-- TODO: Google Analytics Tracking -->
+		<!-- TODO: Google Analytics Tracking -->
 
-</html>
-<!--
+	</html>
+	<!--
 888    888                  d8b          888           888     888 
 888    888                  Y8P          888           888     888 
 888    888                               888           888     888 
