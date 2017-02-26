@@ -19,7 +19,7 @@
 
 		</head>
 		<body>
-			<div class="navbar navbar-default navbar-fixed-top custom-navbar">
+			<div class="navbar navbar-default custom-navbar">
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
@@ -55,12 +55,8 @@
 								<a class="hvr-underline-from-center" href="#rsvp">RSVP</a>
 							</li>
 							<li>
-								<a class="hvr-underline-from-center" href="#e-gift">E-GIFT</a>
-							</li>
-							<li>
 								<a class="hvr-underline-from-center" href="#contact-us">CONTACT US</a>
 							</li>
-							<!-- Embed Bg Music Loop -->
 							<audio id="bg-loop" src="/assets/music/Anbil_Avan_Instrumental.mp3" autoplay loop>
 							</audio>
 							<i id="bg-loop-btn" class="fa fa-music hidden-xs hidden-sm hidden-md" aria-hidden="true"></i>
@@ -151,29 +147,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<div class="section white-font hideme" id="e-gift">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<h1 class="text-center">E-Gift</h1>
-							<div>
-								<h3>Don't know what to gift us? Give us an e-gift!</h3>
-								<script>
-									function submitEGift() {
-										var amt = parseInt(document.getElementById('e-gift-amt').value);
-										var url = "https://www.paypal.me/harishv/" + amt;
-										window.open(url, '_blank');
-									}
-
-								</script>
-								<input id="e-gift-amt"></input> <br>
-							<button type="submit" class="custom-btn" onclick="submitEGift();">Gift</button>
-						</div>
-					</div>
-				</div>
-			</div>
 			</div>
 
 		<div class="section white-font hideme" id="contact-us">

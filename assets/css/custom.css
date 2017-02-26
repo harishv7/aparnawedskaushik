@@ -10,7 +10,7 @@
            url(assets/images/bg-images/bg3.jpg)
 	  	   url(assets/images/bg-images/bg4.jpg)
 	  	   url(assets/images/bg-images/bg5.jpg)
-  /* partial fallback */
+   partial fallback 
   background-image: url(assets/images/bg-images/bg1.jpg);
   visibility: hidden;
   position: absolute;
@@ -40,7 +40,7 @@ body,
 }
 
 .cover-image {
-	background-image : url('assets/images/bg-images/bg1.jpg');
+	background-image : url('../../images/bg-images/bg1.jpg');
 
 	/* Transition properties for fading out into another image */
 	-webkit-transition: background 0.5s linear;
