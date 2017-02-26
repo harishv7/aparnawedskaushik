@@ -48,6 +48,9 @@
 								<a class="hvr-underline-from-center" href="#rsvp">RSVP</a>
 							</li>
 							<li>
+								<a class="hvr-underline-from-center" href="#wishes">WISHES</a>
+							</li>
+							<li>
 								<a class="hvr-underline-from-center" href="#contact-us">CONTACT US</a>
 							</li>
 							<audio id="bg-loop" src="/assets/music/Anbil_Avan_Instrumental.mp3" autoplay loop>
@@ -146,7 +149,6 @@
 					</div>
 
 					<div class="row">
-
 						<div class="col-md-10">
 							<div>
 								<iframe id="typeform-full" width="100%" height="500px" frameborder="0" src="https://harish5.typeform.com/to/LjM1Y3"></iframe>
@@ -179,6 +181,51 @@
 				</div>
 			</div>
 
+			<div class="section white-font hideme" id="wishes">
+				<div class="container">
+					<h1 class="text-center">Wishes</h1>
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1 text-center">
+							<p>Want to wish the bride and bridegroom? <br> Leave your wishes below and we will add it to our wishes wall!</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<form action="https://formspree.io/harish207@live.com" method="POST" class="sans-serif-heading custom-form">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" class="form-control wishes-box" id="name" placeholder="Name" name="name" required>
+										</div>
+										<div class="form-group">
+											<input type="text" name="_gotcha" style="display:none" />
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<textarea class="form-control wishes-box" placeholder="Enter your wishes here" rows="1" name="comments"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="text-center">
+									<button type="submit" class="btn btn-default custom-btn" value="Send">Send Wishes</button>
+								</div>
+							</form>
+							<div class="row text-center">
+								<div class="col-md-6 col-md-offset-3">
+									<img id="divider" src='assets/images/ornament.png' alt=''>
+								</div>
+							</div>
+<!--
+							<div class="wishes-wall">
+								<h2>Wishes Wall</h2>
+							</div>
+-->
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div class="section white-font hideme" id="contact-us">
 				<div class="container">
 					<h1 class="text-center">Contact Us</h1>
@@ -186,14 +233,14 @@
 						<div class="col-md-8 col-md-offset-2">
 							<form action="https://formspree.io/harish207@live.com" method="POST" class="sans-serif-heading custom-form">
 								<div class="col-md-6">
-									<div class="form-group">
-										<input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
+									<div class="form-group comments-box">
+										<input type="text" class="form-control comments-box" id="name" placeholder="Name" name="name" required>
+									</div>
+									<div class="form-group comments-box">
+										<input type="email" class="form-control comments-box" id="email_address" placeholder="Email" name="email" required>
 									</div>
 									<div class="form-group">
-										<input type="email" class="form-control" id="email_address" placeholder="Email" name="email" required>
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+										<input type="text" class="form-control comments-box" id="subject" placeholder="Subject" name="subject">
 									</div>
 									<div class="form-group">
 										<input type="text" name="_gotcha" style="display:none" />
@@ -201,7 +248,7 @@
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<textarea class="form-control" placeholder="Comments" rows="6" name="comments"></textarea>
+										<textarea class="form-control comments-box" placeholder="Comments" rows="6" name="comments"></textarea>
 									</div>
 								</div>
 								<div class="text-center">
