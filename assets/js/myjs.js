@@ -94,7 +94,6 @@ $(document).ready(function() {
 	}
 	window.onload = loadBg();
 
-	/* Hide Bg Music Controls & Do Not Play on Mobile Devices */
 	var bg_loop = document.getElementById("bg-loop");
 	
 	/* Controls for Bg Loop Music */
