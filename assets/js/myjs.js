@@ -98,13 +98,6 @@ $(document).ready(function() {
 	var bg_loop = document.getElementById("bg-loop");
 	
 	/* Controls for Bg Loop Music */
-	$("#bg-loop-btn").click(function() {
-		if(bg_loop.paused) {
-			bg_loop.play();
-		} else {
-			bg_loop.pause();
-		}
-	});
 	$("#bg-loop-btn2").click(function() {
 		if(bg_loop.paused) {
 			bg_loop.play();
@@ -112,4 +105,14 @@ $(document).ready(function() {
 			bg_loop.pause();
 		}
 	});
+	
+	$("#bg-loop-btn").click(function() {
+		if(bg_loop.paused) {
+			bg_loop.play();
+		} else {
+			bg_loop.pause();
+		}
+	});
+	
+	
 });
