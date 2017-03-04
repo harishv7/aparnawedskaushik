@@ -308,27 +308,6 @@
 		<script>
 			var bg_loop = document.getElementById("bg-loop");
 
-			/* Controls for Bg Loop Music */
-			$("#bg-loop-btn2").click(function() {
-				if(bg_loop.paused) {
-					bg_loop.play();
-				} else {
-					bg_loop.pause();
-				}
-			});
-
-			$("#bg-loop-btn").click(function() {
-				if(bg_loop.paused) {
-					bg_loop.play();
-				} else {
-					bg_loop.pause();
-				}
-			});
-
-			$("#welcome-video").click(function() {
-				bg_loop.pause();
-			});
-
 			// Welcome video    
 			// 2. This code loads the IFrame Player API code asynchronously.
 			var tag = document.createElement('script');
@@ -364,13 +343,13 @@
 			function onPlayerStateChange(event) {
 				if(!bg_loop.paused) {
 					bg_loop.pause();
-				}
+				} 
 			}
 
 			function stopVideo() {
 				player.stopVideo();
 			}
-
+			
 		</script>
 	</html>
 	<!--
