@@ -47,6 +47,10 @@
 			<script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 			<script type="text/javascript" src="assets/js/minified/myjs.js"></script>
 			<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCBNzr4C2DanVLXky6kySh9wCqKqyEA6iE"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.3/react.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.3/react-dom.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+			<script type="text/babel" src="assets/js/app.jsx"></script>
 		</head>
 		<body>
 			<div class="navbar navbar-default custom-navbar navbar-fixed-top">
@@ -236,12 +240,10 @@
 									<img id="divider" src='assets/images/ornament.png' alt=''>
 								</div>
 							</div>
-							<!--
-<div class="wishes-wall">
-<h2>Wishes Wall</h2>
-</div>
--->
 						</div>
+					</div>
+					<div class="row" id="wishes-list">
+
 					</div>
 				</div>
 			</div>
@@ -301,9 +303,6 @@
 				</div>
 			</footer>
 		</body>
-
-		<!-- TODO: Google Analytics Tracking -->
-
 
 		<script>
 			var bg_loop = document.getElementById("bg-loop");
