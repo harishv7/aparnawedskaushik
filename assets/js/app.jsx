@@ -1,4 +1,3 @@
-var gitHubUserName = "harishv7";
 var gradients = [{
 	first: '#56ab2f',
 	second: '#a8e063'
@@ -31,34 +30,20 @@ var gradients = [{
 	second: '#3CD3AD'
 }];
 
-function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
-
 var App = React.createClass({
 	getInitialState() {
 	    return {
 	        names: [],
-	        description: [],
-	        WishesRows: [],
-	        repoUrls: [],
-	        homepages: []  
+	        wishes: []
 	    };
 	},
 	componentWillMount() {
 		var populatedNames = [];
 		var populatedWishes = [];
-		var populatedHomepages = [];
-		var populatedRepoUrls = [];
 
-		var apiUrl = "http://harishv.me/ApsWedsKau/wishes.json";
+		var apiUrl = "../../wishes.json";
 		this.serverRequest = $.get(apiUrl, function (result) {
+			console.log(JSON.stringify(result));
 			for (var i = 0; i < result.length; i++) { 
 				populatedNames.push(result[i].name);
 				populatedWishes.push(result[i].wish);
@@ -77,37 +62,37 @@ var App = React.createClass({
 		var names = this.state.names;
 		var wishes = this.state.wishes;
 
-		var rowsArr = [];
-		var itemsForOneRowArr = [];
+		var portfolioRowsArr = [];
+		var porfolioItemsForOneRow = [];
 		for(var i = 0; i < names.length; i++) {
-			itemsForOneRowArr.push({
+			porfolioItemsForOneRow.push({
 				name: names[i],
 				wish: wishes[i],
 				key: i
 			});
 
-			if(itemsForOneRowArr.length === 3) {
-				rowsArr.push(<WishesRow items={itemsForOneRowArr} />);
-				rowsArr.push(<hr />);
-				itemsForOneRowArr = [];
+			if(porfolioItemsForOneRow.length === 3) {
+				portfolioRowsArr.push(<PortfolioRow items={porfolioItemsForOneRow} />);
+				portfolioRowsArr.push(<hr />);
+				porfolioItemsForOneRow = [];
 			}
 		}
 
 		// push any remaining items
-		if(itemsForOneRowArr.length > 0) {
-			rowsArr.push(<WishesRow items={itemsForOneRowArr} />);
-			rowsArr.push(<hr />);
+		if(porfolioItemsForOneRow.length > 0) {
+			portfolioRowsArr.push(<PortfolioRow items={porfolioItemsForOneRow} />);
+			portfolioRowsArr.push(<hr />);
 		}	
 
 		return (
 			<div>
-				{rowsArr}
+				{portfolioRowsArr}
 			</div>
 		);
 	}
 });
 
-var WishesRow = React.createClass({
+var PortfolioRow = React.createClass({
 	render: function() {
 		var firstItemExists = true, secondItemExists = true, thirdItemExists = true;
 		// check if the 3 items exist
@@ -123,15 +108,15 @@ var WishesRow = React.createClass({
 		}
 		return (
 			<div className="row"> 
-				{firstItemExists ? <Wish title={this.props.items[0].name} wish={this.props.items[0].wish} /> : null}
-				{secondItemExists ? <Wish title={this.props.items[1].name} wish={this.props.items[1].wish} /> : null}
-				{thirdItemExists ? <Wish title={this.props.items[2].name} wish={this.props.items[2].wish} /> : null}
+				{firstItemExists ? <PortfolioItem title={this.props.items[0].name} wish={this.props.items[0].wish} /> : null}
+				{secondItemExists ? <PortfolioItem title={this.props.items[1].name} wish={this.props.items[1].wish} /> : null}
+				{thirdItemExists ? <PortfolioItem title={this.props.items[2].name} wish={this.props.items[2].wish} /> : null}
         	</div>
 		);
 	}
 });
 
-var Wish = React.createClass({
+var PortfolioItem = React.createClass({
 	render: function() {
 		var showHome = true;
 		// check if homepage exists
@@ -149,9 +134,10 @@ var Wish = React.createClass({
 		// var gradientStyle = "background-image: linear-gradient(to bottom right,#56ab2f,#a8e063);";
 		return (
 			<div className="col-md-4">
-				<img src="images/github.png" className="img-responsive repoLogo image-center" style={gradientStyle}/> 
-                <h2 className="text-center title">{this.props.title}</h2> 
-                <p className="description">{this.props.wish}</p>
+				<div className="wish-box">
+                <p className="wishes">{this.props.wish}</p>
+				<p>by <i>{this.props.title}</i></p>
+				</div>
 			</div>
 		);
 	}
