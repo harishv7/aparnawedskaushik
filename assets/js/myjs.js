@@ -115,7 +115,7 @@ $(document).ready(function() {
 
     var timerId =
         countdown(
-            new Date(2017, 5, 11),
+            new Date(2017, 5, 11, 18, 30, 0),
             function(ts) {
                 document.getElementById('countdown').innerHTML = ts.toHTML("strong");
             },
