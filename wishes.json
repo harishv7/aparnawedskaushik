@@ -1,54 +1,57 @@
-[
-	{
-		"name": "Anjad",
-		"wish": "Wishing Aparna and kaushik a happy married life."
-	},
-	{
-		"name": "Vasuki",
-		"wish": "Congratulations Aparna and Kaushik. The key to marriage is 'US'. Always remember this, even if the going gets tough."
-	},
-	{
-		"name": "Harish V",
-		"wish": "Wishing both Aparna and Kaushik a wonderful and happy married life! Cherish the life journey ahead of you both. Best wishes! :)"
-	},
-	{
-		"name": "Alex",
-		"wish": "Congrats guys! All the very best!"
-	},
-	{
-		"name": "Azhar",
-		"wish": "Heartiest wishes to the incredibly beautiful couple. Wishing you the best of health, happiness and love for the journey ahead!"
-	},
-	{
-		"name": "Nishalini",
-		"wish": "Congrats to both of u ! All the best in life and stay happy always :)"
-	},
-	{
-		"name": "Misha",
-		"wish": "Congrats on your wedding guys! Wish you both lots of happiness and a happy family life."
-	},
-	{
-		"name": "Varunica",
-		"wish": "Congratulations Aparna and Kaushik! Wishing you both a very blessed and happy married life!"
-	},
-	{
-		"name": "Rupali",
-		"wish": "Good luck, guys!"
-	},
+[{
+        "name": "Anjad",
+        "wish": "Wishing Aparna and kaushik a happy married life."
+    },
     {
-		"name": "Bharath",
-		"wish": "Incredibly happy for you guys and really proud of both of you. My hearty congratulations and wish you a great married life."
-	},
-	{
-		"name": "Abarna",
-		"wish": "Best wishes to my sweetheart aparna and her partner. God bless u both!"
-	},
-	{
-		"name": "Mahashne",
-		"wish": "Congratulations and I wish you lots of happy years together :)"
-	},
-	{
-		"name": "Swathi Suresh",
-		"wish": "Congrats Aparna & Kaushik! Best wishes on this wonderful journey as your build your new lives together. :) "
-	}
+        "name": "Vasuki",
+        "wish": "Congratulations Aparna and Kaushik. The key to marriage is 'US'. Always remember this, even if the going gets tough."
+    },
+    {
+        "name": "Harish V",
+        "wish": "Wishing both Aparna and Kaushik a wonderful and happy married life! Cherish the life journey ahead of you both. Best wishes! :)"
+    },
+    {
+        "name": "Alex",
+        "wish": "Congrats guys! All the very best!"
+    },
+    {
+        "name": "Azhar",
+        "wish": "Heartiest wishes to the incredibly beautiful couple. Wishing you the best of health, happiness and love for the journey ahead!"
+    },
+    {
+        "name": "Nishalini",
+        "wish": "Congrats to both of u ! All the best in life and stay happy always :)"
+    },
+    {
+        "name": "Misha",
+        "wish": "Congrats on your wedding guys! Wish you both lots of happiness and a happy family life."
+    },
+    {
+        "name": "Varunica",
+        "wish": "Congratulations Aparna and Kaushik! Wishing you both a very blessed and happy married life!"
+    },
+    {
+        "name": "Rupali",
+        "wish": "Good luck, guys!"
+    },
+    {
+        "name": "Bharath",
+        "wish": "Incredibly happy for you guys and really proud of both of you. My hearty congratulations and wish you a great married life."
+    },
+    {
+        "name": "Abarna",
+        "wish": "Best wishes to my sweetheart aparna and her partner. God bless u both!"
+    },
+    {
+        "name": "Mahashne",
+        "wish": "Congratulations and I wish you lots of happy years together :)"
+    },
+    {
+        "name": "Swathi Suresh",
+        "wish": "Congrats Aparna & Kaushik! Best wishes on this wonderful journey as your build your new lives together. :) "
+    },
+    {
+        "name": "Naga",
+        "wish": "Wishing both of you a lifetime of love and happiness."
+    }
 ]
